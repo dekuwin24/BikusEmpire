@@ -1,0 +1,78 @@
+.container{
+  width:100%;
+  padding: 0px;
+  margin: 0px;
+}
+.but{
+  position: absolute;
+  left: 72%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+}
+.but:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+.but1{
+  position: relative;
+}
+
+
+.button-red{
+  background-color:#661416;
+  width: 200px;
+  height: 90px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 10px 9px #999;
+}
+.button-red:active{
+  background-color: #661416;
+  box-shadow:  7px 5px #666;
+  transform: translateY(4px);
+}
+.text{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+
+}
+
+.but2{
+  position: absolute;
+  left: 10%;
+  right: 0;
+  top: 60%;
+  bottom: 0;
+}
+.button-grey{
+  background-color:black;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 10px 9px #999;
+  text-align: center;
+
+
+}
+.button-grey:active{
+  background-color: #661416;
+  box-shadow:  7px 5px #666;
+  transform: translateY(4px);
+}
